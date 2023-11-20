@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\jspworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2982156171.index
+\jwbook\src\main\java
+C:\jspworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3595052060.index
+\jwbook\src\main\java
+C:\jspworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1820758828.index
+\jwbook\src\main\java
+C:\jspworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2504049282.index
+\jwbook\src\main\java
