@@ -1,3 +1,23 @@
 1700443969467	Rename resource 'Hello.jsp'
 1700448828036	Rename resource 'resource'
 1700449169079	Rename resource '1.jpg'
+1700532194685	Copy file
+1700532427159	Copy file
+1700534265591	Rename resource 'request.jsp'
+1700534353753	Rename resource 'form.jsp'
+1700541855470	Copy file
+1700542654920	Copy file
+1700542672600	Rename resource 'loginForm.jsp'
+1700550770603	Move file
+1700550847684	Move 'loginForm.jsp' to 'request'
+1700639606335	Rename package 'servlet.dispatch'
+1700639996770	Delete element
+1700640050847	Rename type 'firstservlet'
+1700640698266	Rename type 'FirstServlet'
+1700721558275	Rename resource 'createsession.jsp'
+1700722069877	Rename resource 'session1.jsp'
+1700790697623	Copy file
+1700810196976	Move 'validation' to 'webapp'
+1700810748089	Copy file
+1700813003350	Copy file
+1700814725291	Copy file

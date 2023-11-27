@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 공통 스타일 */
+#container{
+	width: 80%;
+	margin: 40px auto;
+}
+h2, h3, p{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #222;
+}
+
+/* 등록 스타일 */
+#tbl_reg{
+	width: 400px;
+	margin: 0 auto;
+}
+
+#tbl_reg, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+#tbl_reg td{
+	padding: 10px;
+}
+
+#tbl_reg input[type="text"]{
+	width: 200px;
+	height: 20px;
+}
+
+#tbl_reg select{
+	padding: 5px;
+}
+
+/* 목록 스타일 */
+span.accent{color: blue}
+
+#tbl_list{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#tbl_list, th, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+#tbl_list th, td{
+	padding: 10px;
+}
+#tbl_list thead{
+	background-color: #eee;
+}
+
+/* 주소 정보 스타일 */
+#tbl_view{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#tbl_view, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+#tbl_view, td{
+	padding: 10px;
+}
+
+/* 로그인 스타일 */
+#tbl_login{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#tbl_login, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+#tbl_login, td{
+	padding: 10px;
+}
