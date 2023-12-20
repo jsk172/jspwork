@@ -13,6 +13,7 @@
 	<%	
 		abDAO.addAddrBook(addrBook); //주소 추가
 		session.setAttribute("sessionId", addrBook.getEmail()); //정보등록시 자동로그인
+		session.setAttribute("sessionName", addrBook.getUsername());
 	%>
 	<div id="container">
 		<h2>등록 내용</h2>

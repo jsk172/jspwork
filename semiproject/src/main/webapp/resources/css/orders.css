@@ -1,0 +1,450 @@
+/* #mid */
+#mid {
+    width: 100%;
+}
+
+#mid h3 {
+    margin: 20px auto 50px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #edfed6;
+
+}
+
+.mid-top {
+    width: 1100px;
+}
+
+.member_order_info {
+    width: 1100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.member_order_info table {
+    width: 1100px;
+    border: 5px solid #ddd;
+    padding: 10px 30px 10px 10px;
+    line-height: 2;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.rowspan2 {
+    width: 100px;
+    text-align: center;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.first_td,
+.second_td {
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.first_td {
+    border-bottom: 1px solid #ccc;
+}
+
+.prod_order_confirm_table {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.new_icon {
+    background: #fb6;
+    padding: 1px 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    display: inline;
+    margin: 0 auto;
+}
+
+.order_change_decrip {
+    background: #edfed6;
+    color: #8a7;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 5px 15px;
+    border-top: 1px solid #BEDAA4;
+    border-bottom: 1px solid #BEDAA4;
+}
+
+.prod_order_confirm_table table {
+    width: 1100px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.prod_order_confirm_table table tr {
+    border: 1px solid #ccc;
+    width: 1100px;
+}
+
+.prod_order_confirm_table table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table_td_head td {
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+}
+
+.table_td_head {
+    background: #f1f1f1;
+}
+
+.tr2 {
+    background: #fefefe;
+}
+
+.td5, .td6, .td7, .td8 {
+    width: 7%;
+}
+
+.tr2 .td5 {
+    font-size: 0.8rem;
+}
+
+.td9 {
+    width: 10%;
+}
+
+.tr2 .td8 {
+    font-size: 1rem;
+}
+
+.prod_order_confirm_table table img {
+    width: 60px;
+    height: 60px;
+}
+
+.order_config_small_text {
+    font-size: 0.8rem;
+}
+
+.order_config_big_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tr3 {
+    line-height: 4;
+    background: #fafafa;
+}
+
+.select_order_cancel {
+    margin: 15px 10px 100px;
+    padding-bottom: 100px;
+    text-align: right;
+    font-size: 0.8rem;
+    border-bottom: 2px solid #aaa;
+}
+
+.select_order_cancel button {
+    border: none;
+    border-radius: 5px;
+    background: #BEDAA4;
+    padding: 5px 10px;
+}
+
+
+
+
+.mid-mid {
+    width: 1100px;
+    font-size: 0.8rem;
+    margin: 50px auto 100px;
+}
+
+.order_info_span,
+.deliver_info_span {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.deliver_order_info {
+    border-bottom: 2px solid #aaa;
+}
+
+.order_info_span span,
+.deliver_info_span span {
+    margin: 0;
+}
+
+.required {
+    color: #f51;
+}
+
+.span_title {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.mid-mid table {
+    width: 1100px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.mid-mid table input,
+select {
+    padding: 3px;
+    margin: 0 5px;
+    border: 1px solid #bbb;
+}
+
+.mid-mid table th,
+.mid-mid table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    line-height: 2.5;
+}
+
+.mid-mid table th {
+    width: 150px;
+    background: #f1f1f1;
+}
+
+.mid-mid table button {
+    border: none;
+    border-radius: 5px;
+    background: #BEDAA4;
+    padding: 2px 5px;
+    margin: 0 10px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #bbb;
+}
+
+.deliver_agree {
+    line-height: 2;
+    border: 5px solid #ccc;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.deliver_agree p:nth-child(1) {
+    font-weight: 600;
+    margin-right: 50px;
+    float: left;
+}
+
+.deliver_agree p:nth-child(2) {
+    float: none;
+}
+
+.deliver_agree input {
+    margin: 10px 5px 5px 0;
+}
+
+
+.mid-btm {
+    width: 1100px;
+    margin-bottom: 100px;
+}
+
+.expected_order_price {
+    font-size: 0.8rem;
+    margin: 10px;
+}
+
+.expected_order table {
+    width: 1100px;
+    border: 2px solid #aaa;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.expected_order table tr,
+.expected_order table th {
+    border: 1px solid #ccc;
+    width: 33%;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.expected_order table th {
+    background: #f1f1f1;
+}
+
+.expected_order table td {
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.expected_order table td span {
+    font-size: 1.5rem;
+}
+
+.method_title {
+    font-size: 0.8rem;
+    margin: 10px;
+}
+
+.order_method_container {
+    width: 1100px;
+    border: 2px solid #aaa;
+    display: flex;
+}
+
+.method_detail {
+    width: 800px;
+    font-size: 0.8rem;
+}
+
+.select_method {
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.select_method label {
+    margin-right: 15px;
+}
+
+.select_method_datail {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.detail_table {
+    border: 1px solid #ccc;
+    width: 750px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.detail_table tr td {
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+}
+
+.detail_table_title {
+    width: 150px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.detail_table input {
+    margin-left: 5px;
+}
+
+.detail_table select {
+    width: 300px;
+}
+
+.cash_bill {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+.bill_yes_no {
+    width: 200px;
+}
+
+.bill_yes {
+    width: 550px;
+    text-align: left;
+}
+
+.bill_yes table {
+    margin: 20px 0;
+    width: 550px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.bill_yes table tr td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.bill_yes_td {
+    width: 100px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.bill_yes table input {
+    margin: 0 10px;
+}
+
+.withdrawal_policy {
+    border: 1px solid #ccc;
+    padding: 10px 10px 20px;
+}
+
+.withdrawal_policy_title {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.final_config {
+    width: 300px;
+    border-left: 2px solid #ccc;
+    padding: 40px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.final_config_price {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.final_config_price span {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.final_config button {
+    padding: 50px;
+    margin: 20px auto;
+    background: #BEDAA4;
+    border: none;
+    border-radius: 5px;
+}
+
+.info_desk_box {
+    padding-top: 50px;
+    margin-top: 100px;
+    width: 1100px;
+    border-top: 2px solid #aaa;
+}
+
+.interest_free,
+.using_info {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.interest_free table th,
+.using_info table th {
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.using_info {
+    margin-top: 50px;
+}
+
+.using_info table {
+    width: 100%;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* 공통 스타일 */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1300px;
+    height: 100%;
+    background-color: #fefeee;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* ==================================mid=========================== /
+/ #mid */
+#mid {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_h3 {
+    height: 150px;
+    width: 100%;
+    background: #edfed6;
+    display: flex;
+    align-items: center;
+}
+
+#mid_form {
+
+    margin: 0;
+    padding: 50px 100px;
+    width: 1100px;
+}
+
+#mid fieldset {
+    margin: 30px 0;
+    padding: 10px 20px 30px 20px;
+    border-radius: 10px;
+    line-height: 2;
+    width: 100%;
+    text-align: left;
+}
+
+#mid table {
+    margin: 0;
+    border-collapse: collapse;
+}
+
+#mid fieldset legend {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffe;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#join_info table {
+    border-radius: 10px;
+    padding: 20px 0;
+    line-height: 3;
+}
+
+table tr {
+    border: 1px solid #ccc;
+}
+
+table tr th {
+    text-align: left;
+    padding: 0 20px;
+    width: 15%;
+    border: 1px solid #ccc;
+    background: #ffe;
+}
+
+table tr td {
+    width: 100%;
+    display: inline-block;
+}
+
+table tr td input {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+table tr span {
+    padding: 0 20px;
+}
+
+.textbox {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 3;
+}
+
+.Qagree {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.btnbox {
+    text-align: center;
+}
+
+.btnbox button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.join_btn {
+    background: #edfed6;
+}
+
+.reset_btn {
+    background: #B1CE57;
+}

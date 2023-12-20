@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* board */
+  .boardkind {
+    display: block;
+    width: 1100px;
+    height: 300px;
+    background: #edfed6;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+  }
+  
+  .boardkind div {
+    width: 320px;
+    height: 240px;
+    padding: 20px;
+    border: 1px solid #edfed6;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .boardkind div h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .boardkind div li {
+    line-height: 2;
+    border-bottom: 2px dotted #ddd;
+  }
+  
+  .notice-board h3 {
+    color: #f99;
+  }
+  
+  .review-board h3 {
+    color: #99f;
+  }
+  
+  .QnA-board h3 {
+    color: #9f9;
+  }

@@ -1,0 +1,70 @@
+#boardview{
+	width: 550px;
+	margin: 20px auto;
+}
+#boardview table{
+	width: 550px;
+	margin: 20px auto;
+}
+#boardview .logout{
+	text-align: right;
+}
+#boardview table, th, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 10px;
+}
+#boardview input{
+	width: 540px;
+	height: 25px;
+	padding: 5px;;
+}
+#boardview textarea{
+	width: 540px;
+	height: 300px;
+	padding: 5px;
+}
+#boardview button{
+	padding: 5px;
+}
+#replyform textarea{
+	height: 100px;
+}
+/* 댓글 영역 스타일 */
+#boardview h3{
+	margin-bottom: 12px;
+	color: #444;
+}
+#boardview .reply{
+	border-top: 1px dotted #ccc;
+	margin: 10px;
+}
+#boardview .reply p{
+	margin: 10px 0;
+	font-size: 0.9em;
+	color: #444;
+}
+/* 댓글 내용 줄 바꿈 : white-space: pre-line; */
+#boardview .reply p:nth-of-type(1){
+	white-space: pre-line;
+	line-height: 1.5;
+}
+#replyform button{
+	margin-top: 6px;
+}
+.replylogin{
+	background-color: #eee;
+	margin: 10px 0;
+	padding: 16px;
+	text-align: center;
+	border-radius: 5px;
+}
+.replylogin a{
+	color: blue;
+	font-size: 0.9em;
+}
+.replylogin a:hover{
+	color: red;
+	text-decoration: underline;
+}

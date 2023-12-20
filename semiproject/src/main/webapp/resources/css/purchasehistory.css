@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* #mid */
+#mid {
+    width: 100%;
+    text-align: center;
+}
+
+#mid h3 {
+    margin: 20px auto 50px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #edfed6;
+}
+
+#buyend {
+    width: 1100px;
+}
+
+.history_table_box {
+    width: 1100px;
+}
+
+.history_table {
+    width: 1100px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.history_table th {
+    border: 1px solid #ccc;
+    background: #fefefe;
+    font-weight: 300;
+}
+
+
+.history_table th, .history_table td{
+    padding: 10px;
+}
+
+.history_table tbody img {
+    width: 60px;
+    height: 60px;
+}
+
+.tr1 {
+    background: #f1f1f1;
+    font-size: 1rem;
+}
+
+.col1 {
+    width: 8%;
+}
+
+.img_col {
+    width: 80px;
+}
+
+.col2 {
+    width: 12%;
+}
+
+.col6 {
+    width: 23%
+}
+
+.col7 {
+    width: 10%;
+}
+
+.col8 {
+    width: 11%;
+}
+
+.td6 {
+    font-size: 0.9rem;
+}
+
+select {
+    padding: 2px;
+}
+
+.td8 button {
+    border: none;
+    background: #BEDAA4;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#page {
+    padding: 10px;
+    margin: 20px auto 100px;
+}
+
+#samll_font {
+    font-size: 0.4rem !important;
+}

@@ -1,0 +1,422 @@
+@charset "UTF-8";
+    /* 공통 스타일 */
+  * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+    
+  
+  /* ==============================================heaader================================== */
+  /* top */
+  #top {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* .top-top */
+  .top-top {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #ededed;
+  }
+  
+  .tt-box {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .mini-shortcut {
+    margin-left: 50px;
+  }
+  
+  .ms-list li {
+    padding: 5px;
+    float: left;
+    font-size: 0.8rem;
+  }
+  
+  .ms-list li a {
+    color: #878787;
+  }
+  
+  .top-top-menu {
+    margin-right: 50px;
+  }
+  
+  .ttm-list li {
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .ttm-list li a {
+    color: #878787;
+  }
+  
+  /* .top-mid */
+  .top-mid {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-mid a {
+    width: 1100px;
+    height: 160px;
+  }
+  
+  .top-mid a img {
+    width: 250px;
+    height: 160px;
+  }
+  
+  /* .top-btm */
+  
+  
+  #top-btm {
+    width: 100%;
+    height: 50px;
+    background-color: #edfed6;
+  }
+  
+  
+  .top-btm-menu .tbm-list {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .tbm-list-li,
+  .view-all-menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .top-btm-menu .tbm-list li {
+    position: relative;
+  }
+  
+  .top-btm-menu li:hover ul,li {
+    display: block;
+  }
+  
+  .sub_all_menu {
+    width: 1100px;
+    height: 200px;
+    padding: 5px;
+    position: absolute;
+    background: #edfed6;
+    top: 50px;
+    left: -20px;
+    display: none;
+    z-index: 2;
+  }
+  
+  .sub_all_menu ul {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 3;
+  }
+  
+  .sub_all_menu ul li {
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .top-btm-menu li:hover .sub_all_menu {
+    display: flex;
+  }
+  
+  .sub_menu {
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    background: #edfed6;
+    top: 50px;
+    left: -10px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: none;
+    z-index: 2;
+  }
+  
+  .sub_menu li {
+    display: block;
+    text-align: left;
+  }
+
+
+  
+  /* ==============================================mid================================== */
+
+/* #mid */
+#mid {
+  width: 1100px;
+  height: auto;
+  background-color: #fff;
+  margin: 30px auto;
+  margin-bottom: 0;
+  padding-bottom: 100px;
+}
+
+#mid h3 {
+  padding: 50px;
+  text-align: center;
+  background-color: #edfed6;    
+}
+
+.Board {
+  width: 1100px;
+
+}
+
+#board_tb {
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 5px 20px 5px;
+  line-height: 2.5;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+table a{
+  width: 0;
+  height: 0;
+}
+
+.td_img {
+  width: 100%;
+  height: 100%;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+#board_tb tbody td:nth-child(2) {
+  text-align: left;
+}
+
+#board_tb thead {
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  line-height: 3;
+  font-size: 0.8rem;
+}
+
+.board_no {
+  width: 5%;
+}
+
+.board_img {
+  width: 10%;
+}
+
+.board_title {
+  width: 50%;
+}
+
+.board_writer {
+  width: 5%;
+}
+
+.board_date {
+  width: 10%;
+}
+
+.board_hit {
+  width: 5%;
+}
+
+#board_tb tr, td {
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+}
+
+.pagenation{
+	text-align: center;	
+	margin-bottom: 10px;
+}
+
+.board_box {
+  width: 1100px;
+  border: 1px solid #eee;
+  background: #e8e8e8;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board_search_box,
+.board_search_box form{
+	margin: 0 10px 0 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.write{
+	margin: 0 0 0 10px;
+}
+
+.write button{
+	width: 60px;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #a9a9a9;
+  font-weight: bold;
+  color: #4d4c4c;
+}
+
+.board_search_box selected{
+  width: 90px;
+  margin: 5px 2px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: felx;
+  flex-wrap: wrap;
+}
+
+.btn_board_search {
+  display: flex;
+  align-items: center;
+}
+.board_search_box button {
+  width: 60px;
+  padding: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 10px;
+}
+
+ /* ==============================================bottom================================== */
+
+  /* #bottom */
+#bottom {
+  width: 100%;
+  height: 300px;
+  border-top: 2px solid #BEDAA4;
+  background: #ededed;
+}
+
+/* .btm-box */
+.btm-box {
+  width: 1100px;
+  height: 150px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-weight: bold;
+}
+
+.info-content {
+  font-size: 0.8rem;
+}
+
+.cst-center {
+  width: 330px;
+  margin-left: 0;
+}
+
+.bank-info {
+  width: 330px;
+}
+
+.btm-icon {
+  width: 350px;
+  margin: 0;
+}
+
+.btm-icon-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btm-icon-list img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.btm-icon-list li {
+  padding: 10px;
+}
+
+/* #ftr-box */
+#ftr-box {
+  width: 100%;
+  height: 150px;
+  background: #221A11;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer-info {
+  width: 1100px;
+  height: 150px;
+  text-align: center;
+  line-height: 2;
+}
+
+.ftr-tags {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.ftr-tags a {
+  color: #fff;
+}

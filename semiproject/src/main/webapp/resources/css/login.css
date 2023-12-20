@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.member_warp {
+	width: 500px;
+	margin-top: 100px;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.member_tit {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.logo {
+	max-width: 100%;
+	height: auto;
+}
+
+input {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 2px solid #c3c7bd;
+	border-radius: 6px;
+}
+
+button {
+	width: 100%;
+	padding: 15px;
+	background-color: #be2600;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #ac9;
+}
+
+.agree_box {
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	color: #555;
+}
+
+.agree_box input {
+	width: 50px;
+}
+
+.agree_box label {
+	cursor: pointer;
+}
+
+.btn_login_box {
+	position: relative;
+}
+
+.btn_login_box ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn_login_box p {
+	position: absolute;
+	background: #edfed6;
+	padding: 5px 15px;
+	border: 1px solid #951;
+	border-radius: 5px;
+	display: none;
+}
+
+@keyframes down {
+  0% {
+      transform: translateY(-10px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+#btnJoinMember:hover + p {
+	display: block;
+	z-index: 2;
+	animation: down 0.5s ease-in-out;
+}
+
+.btn_login_box li {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.btn_member_join,
+.btn_member_white,
+.btn_member_gray {
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn_member_join {
+	background-color: #799c4b;
+	color: #fff;
+}
+
+.btn_member_white {
+	background-color: #ecf0f1;
+	color: #333;
+}
+
+.btn_member_gray {
+	background-color: #95a5a6;
+	color: #fff;
+}
+
+.btn_member_white:hover,
+.btn_member_gray:hover {
+	background-color: #bdc3c7;
+}

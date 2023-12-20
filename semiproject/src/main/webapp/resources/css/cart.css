@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* #mid */
+#mid {
+    width: 100%;
+}
+
+#mid h3 {
+    margin: 20px auto 50px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #edfed6;
+
+}
+
+.mid-top {
+    width: 1100px;
+}
+
+.member_order_info {
+    width: 1100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.member_order_info table {
+    width: 1100px;
+    border: 5px solid #ddd;
+    padding: 10px 30px 10px 10px;
+    line-height: 2;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.rowspan2 {
+    width: 100px;
+    text-align: center;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.first_td,
+.second_td {
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.first_td {
+    border-bottom: 1px solid #ccc;
+}
+
+.prod_order_confirm_table {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.order_change_decrip {
+    background: #edfed6;
+    color: #8a7;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 5px 15px;
+    border-top: 1px solid #BEDAA4;
+    border-bottom: 1px solid #BEDAA4;
+}
+
+.prod_order_confirm_table table {
+    width: 1100px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.new_icon {
+    background: #fb6;
+    padding: 1px 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    display: inline;
+    margin: 0 auto;
+}
+
+.prod_order_confirm_table table tr {
+    border: 1px solid #ccc;
+    width: 1100px;
+}
+
+.prod_order_confirm_table table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table_td_head td {
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+}
+
+.prod_order_confirm_table table .tr1 {
+    background: #f1f1f1;
+}
+
+.prod_order_confirm_table table .table_td_head {
+    background: #fefefe;
+}
+
+.prod_order_confirm_table table tr .td5,
+.prod_order_confirm_table table tr .td6,
+.prod_order_confirm_table table tr .td7,
+.prod_order_confirm_table table tr .td8,
+.prod_order_confirm_table table tr .td9,
+.prod_order_confirm_table table tr .td0 {
+    width: 7%;
+}
+
+.prod_order_confirm_table table .tr2 td:nth-child(n+5) {
+    font-size: 0.8rem;
+}
+
+.prod_order_confirm_table table tr .td9 {
+    width: 10%;
+}
+
+.prod_order_confirm_table table tr .td0 {
+    width: 10%;
+}
+
+.prod_order_confirm_table table .tr2 .td8,
+.prod_order_confirm_table table .tr2 .mid_sub_price,
+.prod_order_confirm_table table .tr2 .td0 {
+    font-size: 1rem;
+}
+
+.prod_order_confirm_table table img {
+    width: 60px;
+    height: 60px;
+}
+
+.prod_order_confirm_table table button {
+    padding: 1px 2px;
+    margin: 5px;
+    width: 75px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.prod_order_confirm_table table p:nth-child(1) button{
+    background: #edfed6;
+}
+
+.num {
+    font-size: 1rem;
+}
+
+.order_config_small_text {
+    font-size: 0.8rem;
+}
+
+.order_config_big_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prod_order_confirm_table table tr:nth-child(4) {
+    line-height: 4;
+    background: #fafafa;
+}
+
+.select_order_cancel {
+    margin: 15px 10px 50px;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.select_order_delete,
+.delete_all_cart{
+    border: none;
+    border-radius: 5px;
+    background: #BEDAA4;
+    padding: 5px 10px;
+}
+
+.order_btn {
+    border: none;
+    border-radius: 5px;
+	background: #edfed6;
+    padding: 5px 10px;
+}
+
+.all_orders {
+    margin: 15px 10px 50px;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.all_orders button {
+	font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #edfed6;
+    padding: 20px 25px;
+}
+
+.delete_all_cart {
+    margin-left: 50px;
+}
+
+.mid-btm {
+    width: 1100px;
+    margin-bottom: 100px;
+}
+
+.expected_order_price {
+    font-size: 0.8rem;
+    margin: 10px;
+}
+
+.expected_order table {
+    width: 1100px;
+    border: 2px solid #aaa;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.expected_order table tr,
+.expected_order table th {
+    border: 1px solid #ccc;
+    width: 33%;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.expected_order table th {
+    background: #f1f1f1;
+}
+
+.expected_order table td {
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.expected_order table td span {
+    font-size: 1.5rem;
+}
+
+.info_desk_box {
+    padding-top: 50px;
+    margin-top: 100px;
+    width: 1100px;
+    border-top: 2px solid #aaa;
+}
+
+.using_info {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.using_info table th {
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.using_info {
+    margin-top: 50px;
+}
+
+.using_info table {
+    width: 100%;
+}
+
+.go_orders_btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

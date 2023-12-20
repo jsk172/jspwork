@@ -1,0 +1,83 @@
+/* #bottom */
+#bottom {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid #BEDAA4;
+    background: #ededed;
+}
+
+/* .btm-box */
+.btm-box {
+    width: 1100px;
+    height: 150px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+.info-content {
+    font-size: 0.8rem;
+}
+
+.cst-center {
+    width: 330px;
+    margin-left: 0;
+}
+
+.bank-info {
+    width: 330px;
+}
+
+.btm-icon {
+    width: 350px;
+    margin: 0;
+    z-index: 1;
+}
+
+.btm-icon-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btm-icon-list img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.btm-icon-list li {
+    padding: 10px;
+}
+
+/* #ftr-box */
+#ftr-box {
+    width: 100%;
+    height: 150px;
+    background: #221A11;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.footer-info {
+    width: 1100px;
+    height: 150px;
+    text-align: center;
+    line-height: 2;
+}
+
+.ftr-tags {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ftr-tags a {
+    color: #fff;
+}

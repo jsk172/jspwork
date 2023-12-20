@@ -26,7 +26,7 @@
 		<h2>주소 목록</h2>
 		<hr>
 		<p>
-				<span class="accent">(<%=session.getAttribute("sessionId") %>님)</span>
+			<span class="accent">(<%=session.getAttribute("sessionName") %>님)</span>
 			<a href="logout.jsp">
 				[로그아웃]
 			</a>
