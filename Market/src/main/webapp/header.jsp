@@ -18,6 +18,15 @@
         <li class="nav-item">
           <a class="nav-link" href="/productform.do">상품등록</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/cart.do">장바구니</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/editproduct.do?edit=update">상품수정</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/editproduct.do?edit=delete">상품삭제</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             로그인
