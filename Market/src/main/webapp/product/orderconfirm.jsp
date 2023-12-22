@@ -6,25 +6,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>장바구니</title>
-<link rel="stylesheet" href="../resources/css/style.css">
+<title>주문내역</title>
 </head>
 <body>
 	<jsp:include page="../header.jsp"/>
 	<div class="container my-3">
-		<h1>장바구니</h1>
-		<div class="row">
+		<h1>주문 내역</h1>
+		<div class="row my-3">
+			<div class="col-4" align="left">
+				배송주소<br>
+				성명: ${shipping_sname}<br>
+				우편번호: ${shipping_zipcode}<br>
+				주소: ${shipping_address}<br>
+			</div>
+			<div class="col-8" align="right">
+				배송일: ${shipping_shippingdate}
+			</div>
+			<!-- 장바구니 품목 -->
 			<table>
-				<tr>
+				<%-- <tr>
 					<td class="left">
 						<a href="/shippingform.do?cartId=${cartId}" class="btn btn-success">주문하기</a>
 					</td>
 					<td class="right">
 						<a href="/deletecart.do" class="btn btn-danger">삭제하기</a>
 					</td>
-				</tr>
+				</tr> --%>
 			</table>
-			<!-- 장바구니 품목 -->
 			<div>
 				<table class="table table-hover my-3 px-3">
 					<thead>
@@ -43,7 +51,7 @@
 								<td><fmt:formatNumber value="${product.price}" pattern="#,##0"/></td>
 								<td>${product.quantity}</td>
 								<td><fmt:formatNumber value="${product.price * product.quantity}" pattern="#,##0"/></td>
-								<td><a href="/removecart.do?pid=${product.pid}" class="badge bg-dark p-2">삭제</a></td>
+								<td><a href="/removecart.do?pid=${product.pid}" class="badge bg-dark">삭제</a></td>
 							</tr>
 						</c:forEach>
 					</tbody>
@@ -56,6 +64,9 @@
 						</tr>
 					</tfoot>
 				</table>
+				<p align="right">
+					<a href="/thankscustomer.do" class="btn btn-success">주문완료</a>
+				</p>
 			</div>
 		</div>
 	</div>

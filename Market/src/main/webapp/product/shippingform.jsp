@@ -13,6 +13,7 @@
 	<h1>배송 정보</h1>
 		<div class="row">
 			<form action="/shippinginfo.do" method="post">
+			<input type="hidden" name="cartId" value="${cartId}">
 				<div class="form-group row my-3">
 					<label class="col-2">성명</label>				
 					<div class="col-3">

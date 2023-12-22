@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&display=swap');
+
+header .navbar-brand{font-family: Nanum Gothic Coding;}
+a.badge{text-decoration: none;}
